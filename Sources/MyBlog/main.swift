@@ -15,10 +15,10 @@ struct MyBlog: Website {
 
     // Update these properties to configure your website:
     var url = URL(string: "https://your-website-url.com")!
-    var name = "MyBlog"
-    var description = "A description of MyBlog"
-    var language: Language { .english }
-    var imagePath: Path? { nil }
+    var name = "Thyago Raphael"
+    var description = "Thyago Raphael"
+    var language: Language { .brPortuguese }
+    var imagePath: Path? { "images/developer-team.png" }
 }
 
 // This will generate your website using the built-in Foundation theme:
