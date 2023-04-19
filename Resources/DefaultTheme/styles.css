@@ -52,6 +52,7 @@ header {
     sans-serif;
   font-weight: bold;
   font-size: 2.5em;
+  color: var(--title-color);
 }
 
 #subtitle {
@@ -64,7 +65,7 @@ header {
   font-weight: 500;
   font-style: italic;
   font-size: 0.95em;
-  color: var(--secondary-color);
+  color: var(--subtitle-color);
   margin-bottom: 20px;
 }
 
@@ -88,13 +89,13 @@ nav li {
     sans-serif;
   font-weight: 500;
   font-size: 0.9em;
-  color: var(--secondary-color);
+  color: var(--primary-color);
   margin: 0 5px;
 }
 
 nav li a.selected {
   font-weight: 900;
-  color: var(--primary-color);
+  color: var(--nav-color);
 }
 
 a:link, a:hover, a:active, a:visited {
@@ -124,6 +125,7 @@ a:link, a:hover, a:active, a:visited {
   font-size: 3.25em;
   line-height: 1;
   margin-bottom: 0.2em;
+  color: var(--test-color);
 }
 
 .item-title a:hover, .item-title a:active {
@@ -166,23 +168,28 @@ a.read-more {
   max-width: min(90%, 850px);
   margin: 0 auto;
   margin-bottom: 40px;
+  color: var(--test-color);
 }
 
 .content h2 {
   text-align: center;
   margin-bottom: 0.5em;
+  color: var(--test-color);
 }
 
 .content p {
   margin-bottom: 1.5em;
+  color: var(--content-p-color);
 }
 
 .content a {
   text-decoration: underline;
+  color: var(--content-a-color);
 }
 
 .content ul, .content ol {
   padding-left: 2.5em;
+  color: var(--content-ul-color);
 }
 
 .content img {
@@ -196,7 +203,7 @@ a.read-more {
 
 .content code {
   box-sizing: content-box;
-  font-family: ui-monospace, SFMono-Regular,  sans-serif;
+  font-family: ui-monospace, SFMono-Regular, sans-serif;
   font-size: 0.925em;
   background-color: var(--code-background-color);
   border-radius: 0.4em;
@@ -292,7 +299,7 @@ a.read-more {
   width: 85%;
   display: flex;
   justify-content: space-between;
-  color: var(--secondary-color);
+  color: var(--footer-content-color);
   margin: 0 auto;
   margin-top: 40px;
 }
@@ -314,11 +321,11 @@ footer p {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background-color: #2c2c2e;
-    --primary-color: #c7c7cc;
-    --secondary-color: #636366;
-    --divider-color: #3a3a3c;
-    --code-background-color: #242426;
+    --background-color: #292C37;
+    --primary-color: #F2F2F2;
+    --secondary-color: #F8F8F2;
+    --divider-color: #6A6577;
+    --code-background-color: #1D1E26;
     --code-keyword-color: #fc5fa3;
     --code-number-color: #d0bf69;
     --code-string-color: #fc6a5d;
@@ -328,5 +335,16 @@ footer p {
     --code-call-color: #5dd8ff;
     --code-comment-color: #6c7986;
     --code-preprocessing-color: #fd8f3f;
+    --footer-content-color: #F8F8F2;
+    
+    --title-color: #4FFA7A;
+    --subtitle-color: #F2F2F2;
+    --nav-color: #4FFA7A;
+    --content-color: #D763BB;
+    --content-h2-color: #D763BB;
+    --content-p-color: #F2F2F2;
+    --content-a-color: #F2F2F2;
+    --content-ul-color: #F2F2F2;
+    --test-color: #9580FF;
   }
 }

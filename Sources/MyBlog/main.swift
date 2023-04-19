@@ -9,7 +9,6 @@ struct MyBlog: Website {
         // Add the sections that you want your website to contain here:
         case posts
         // New Sections
-        case about
     }
 
     struct ItemMetadata: WebsiteItemMetadata {
@@ -19,7 +18,7 @@ struct MyBlog: Website {
     // Update these properties to configure your website:
     var url = URL(string: "https://your-website-url.com")!
     var name = "Thyago Raphael"
-    var description = "iOS Developer & Swift Blog "
+    var description = "Criando minha biblioteca sobre iOS, Swift & muito mais"
     var language: Language { .brPortuguese }
     var imagePath: Path? { "images/developer-team.png" }
 }
