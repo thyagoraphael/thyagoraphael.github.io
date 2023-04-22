@@ -1,19 +1,4 @@
-/*:root {*/
-/*  --background-color: #fcfafa;*/
-/*  --primary-color: #312f2f;*/
-/*  --secondary-color: #aeaeb2;*/
-/*  --divider-color: #e5e5ea;*/
-/*  --code-background-color: #f7f5f5;*/
-/*  --code-keyword-color: #9b2393;*/
-/*  --code-number-color: #1c00cf;*/
-/*  --code-string-color: #c41a16;*/
-/*  --code-type-color: #326d74;*/
-/*  --code-dotaccess-color: #326d74;*/
-/*  --code-property-color: #326d74;*/
-/*  --code-call-color: #0f68a0;*/
-/*  --code-comment-color: #5d6c79;*/
-/*  --code-preprocessing-color: #643820;*/
-/*}*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 :root {
     --background-color: #292C37;
@@ -72,15 +57,10 @@ header {
 }
 
 #title {
-  font-family:
-    sofia-pro,
-    ui-sans-serif,
-    -apple-system,
-    BlinkMacSystemFont,
-    sans-serif;
-  font-weight: bold;
-  font-size: 2.5em;
+  font-family: 'Dancing Script', sofia-pro, ui-sans-serif, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 6em;
   color: var(--title-color);
+  margin-bottom: 10px;
 }
 
 #subtitle {
@@ -92,7 +72,7 @@ header {
     sans-serif;
   font-weight: 500;
   font-style: italic;
-  font-size: 0.95em;
+  font-size: 1.1em;
   color: var(--subtitle-color);
   margin-bottom: 20px;
 }

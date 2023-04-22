@@ -18,7 +18,7 @@ struct MyBlog: Website {
     // Update these properties to configure your website:
     var url = URL(string: "https://your-website-url.com")!
     var name = "Thyago Raphael"
-    var description = "Criando minha biblioteca sobre iOS, Swift & muito mais"
+    var description = "Compartilhando meus estudos sobre iOS, Swift & muito mais"
     var language: Language { .brPortuguese }
     var imagePath: Path? { "images/developer-team.png" }
 }
@@ -26,11 +26,11 @@ struct MyBlog: Website {
 // This will generate your website using the built-in Foundation theme:
 try MyBlog().publish(withTheme: .default(
     additionalStylesheetPaths: ["/apps.css"],
-    pagePaths: ["apps", "about"],
+    pagePaths: ["about"], // Quando tiver com seus projetos, adicionar "apps"
     contentPagePaths: ["about"],
     navigationLinks: [
-        .init(name: "Résumé",
-              url: "https://s3.amazonaws.com/niazoff.com/resume.pdf")],
+        .init(name: "Linkedin",
+              url: "https://www.linkedin.com/in/thyagoraphael/")],
     copyright: "Thyago Raphael",
     twitterURL: "https://twitter.com/thyagoraphael",
     githubURL: "https://github.com/thyagoraphael"
