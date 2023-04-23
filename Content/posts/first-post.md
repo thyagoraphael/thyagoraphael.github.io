@@ -66,6 +66,6 @@ Segue uma lista com alguns atalhos para o Xcode que facilitam sua produtividade 
 2. Localizar o arquivo no painel de navegação das pastas: ⌘ + ⇧ + J
     <br />
     <br />
-    <video width="920" height="440" loop>
+    <video width="920" height="440" controls>
         <source src="/posts/atalhos-xcode/localizar-arquivo.mov" type="video/mp4">
     </video>
